@@ -1,0 +1,14 @@
+
+.c-page-homepage {
+    background-color: tan;
+}
+
+.top-of-page-header {
+    width: 100%;
+    background-color: tan;
+}
+
+.top-of-page-title {
+    align-items: center;
+    font: 500 30px / 34px Roboto;
+}
