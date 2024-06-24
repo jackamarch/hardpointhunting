@@ -24,6 +24,10 @@
     margin-left: 40px;
 }
 
+.navbar-icon {
+    background-image: url(../images/shotgunshells.jpg);
+}
+
 .image-container {
     display: grid;
     place-items: center;
@@ -41,27 +45,39 @@
 
 .footer-links {
     margin: 20px auto;
-    background-color: rgba(0, 0, 0, 0.767);
+    background-color: #22311d ;
     width: fit-content;
-    padding: 5px 10px 8px;
+    padding: 5px 10px 3px;
     border-radius: 8px;
 }
 
 .insta-icon {
-    color: #962fbf;
-    background-color: white;
-    width: 20px;
-    height: 20px;
+    filter: invert(22%) sepia(52%) saturate(2880%) hue-rotate(260deg) brightness(102%) contrast(86%);    width: 16px;
+    height: 16px;
+    background-image: url(../images/instagram.svg);
+    display: inline-block;
 }
 
 .fb-icon {
-    color: #1877F2;
+    filter: invert(32%) sepia(73%) saturate(2333%) hue-rotate(203deg) brightness(98%) contrast(94%);
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/facebook.svg);
+    display: inline-block;
 }
 
 .tele-icon {
-    color: 	#25D366;
+    filter: invert(73%) sepia(17%) saturate(3753%) hue-rotate(86deg) brightness(99%) contrast(75%);
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/telephone.svg);
+    display: inline-block;
 }
 
 .email-icon {
-    color: #1877F2;
+    filter: invert(32%) sepia(73%) saturate(2333%) hue-rotate(203deg) brightness(98%) contrast(94%);
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/envelope.svg);
+    display: inline-block;
 }
