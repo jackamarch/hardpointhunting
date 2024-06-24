@@ -35,8 +35,33 @@
 
 .footer-container {
     text-align: center;
+    padding-bottom: 20px;
+    background-color: tan;
 }
 
 .footer-links {
     margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.767);
+    width: fit-content;
+    padding: 5px 10px 8px;
+    border-radius: 8px;
+}
+
+.insta-icon {
+    color: #962fbf;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.fb-icon {
+    color: #1877F2;
+}
+
+.tele-icon {
+    color: 	#25D366;
+}
+
+.email-icon {
+    color: #1877F2;
 }
