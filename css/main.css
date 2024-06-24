@@ -28,3 +28,7 @@
 .homepage-splash-image {
     max-width: 80%;
 }
+
+.bi-envelope {
+    content: '\F32F';
+}
